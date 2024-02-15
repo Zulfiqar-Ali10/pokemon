@@ -1,0 +1,614 @@
+body {
+    margin: 0%;
+    font-family: "Flexo-Medium";
+    font-size: 13px;
+    padding: 0%;
+    background-image: url(imgs/container_bg.png);
+}
+body::before {
+
+    background-color: white;
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 400%;
+    top: 0%;
+    left: 3%;
+    z-index: -1;
+}
+
+
+/* header  */
+
+.main-container{
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0px 0px 12px 10px rgb(194, 193, 193);
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+}
+.main-container>img{
+    padding: 5px 0px;
+
+    
+}
+
+.toplist{
+    margin-top: 9px 0px;
+    padding: 10px 10px ;
+    box-shadow: 1px 1px 12px 1px rgb(192, 192, 192);
+}
+
+
+
+/* Navbar */
+.navbar {
+    
+    width: 100%;
+    text-align: center;
+    
+}
+
+.navbar>ul {
+    box-shadow: 0px 1px 10Px 1px rgb(155, 153, 153);
+    margin: 3px 0px;
+    background-color: white;
+}
+
+
+.icon>li>span {
+    color: black;
+    width: 99%;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.icon{
+    display: inline-block;
+    width: 10%;
+    list-style: none;
+}
+
+
+
+.icon img{
+    padding-top: 20px ;
+    display: inline-block;
+    width: 35px;
+    
+}
+
+.navhome{
+    background-color: grey;
+    padding: 5px 0px;
+    border-bottom: grey solid 5px;
+}
+.navhome:hover{
+
+    background-color: grey;
+}
+
+
+.pokemon{
+    border-bottom: #E3350D solid 5px;
+    padding: 5px 0px;
+    
+    
+}
+.pokemon:hover{
+    background-color:#E3350D ;   
+}
+.game{
+    
+    border-bottom:#ee6b2f solid 5px;
+    padding: 5px 0px;
+    
+    
+}
+.game:hover{
+    background-color:#ee6b2f;
+    
+}
+.trading{
+    border-bottom:#e6bc2f solid 5px;
+    padding: 5px 0px;
+    }
+    .trading img{
+        padding-top: 25px ;
+    }
+    .trading:hover{
+        background-color: #e6bc2f;
+        
+    }
+    .anime{
+    border-bottom: #4dad5b solid 5px;
+    padding: 5px 0px;
+
+}
+.anime:hover{
+ background-color:#4dad5b;
+
+}
+.play{
+    padding: 5px 0px ;
+        border-bottom:#30a7d7 solid 5px;
+ }
+.play img{
+    vertical-align: bottom;
+    padding-top: 8px;
+    
+ }
+.play:hover{
+    background-color:#30a7d7;
+}
+.news{
+    border-bottom:#1b53ba solid 5px;
+    padding: 5px 0px;
+    border-radius: 0px 0px 5px 0px ;
+}
+.news:hover{
+    background-color: #1b53ba;
+
+}
+
+
+
+
+
+
+/* section  */
+
+
+.home{
+    margin: 5px auto;
+    width:66%;
+    height: 540px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.rightside{
+    margin: 34px 0px;
+    width: 30%;
+    display: inline-block;
+}
+
+.card1{
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 35px 14px;
+    width: 65%;
+    background-color: green;
+    
+}
+.card1:hover
+{
+    transition: 0.9s;
+    box-shadow: 0px 0px 12px 1px rgb(196, 190, 190);
+    
+}
+.card1>img{
+    width: 100%;
+    border-radius: 20px;
+}
+.card1>.ch1
+{
+    padding: 0px 11px;
+    font-weight: 800;
+    font-weight: 800;
+    color: white;
+}
+.card1>p{
+
+    padding: 0px 11px;
+    font-weight: 800;
+    font-weight: 800;
+}
+
+
+.card1>p{
+    
+    width: 70%;
+    display: inline-block;
+    font-weight: bold;
+    font-weight: 800;
+}
+
+.tag{
+    width: 130px;
+    display: inline-block;
+}
+
+.card2{
+    text-transform: capitalize;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: rgb(68, 159, 196);
+}
+.card2 img{
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 11px;
+}
+.card2 h1 {
+
+    padding:10px 0px;
+    margin: 8px;
+    font-weight: 800;
+
+
+}
+
+
+.card3{
+    border-radius: 20px;
+    background-color: #855ac9;
+
+}
+.card3.cp3
+{
+    color: #855ac9;
+    font-weight: 800;
+
+}
+.card3>.c3{
+   text-transform: capitalize;
+    color: white;
+    font-weight: 800;
+}
+.card3>h1,p{
+    padding:0px 12px ;
+    font-weight: 800;
+}
+
+.card3>p{
+    width: 80%;
+    font-weight: 800;
+}
+
+
+
+/* card part two*/
+
+.one{
+    background-color: pink;
+    vertical-align: 330%;
+    
+}
+.one:hover
+{ 
+    background-color:#FF2A8E;
+
+    vertical-align: 330%;
+    
+}
+.two{
+    background-color: red;
+    vertical-align: 330%;
+}
+.cardmain>.three{
+
+    background-color: #ee6b2f;
+}
+.one>img,.two>img,.three>img{
+    border-radius: 4px;
+    
+}
+
+.cardmain{
+    border-radius: 10px;
+    background-color: white;
+    height: 330px;
+    margin: 0px auto;
+    width: 65%;
+}
+.container2{
+    display: inline-block;
+    width: 30%;
+    color: white;
+    margin: 0px 4px;
+    border-radius: 20px;
+}
+
+.one>h1,.two>h1,.three>h1{
+    padding: 3px 32px;
+    font-weight: 800;
+}
+
+
+.search{
+    position: fixed;
+    top: 300px;
+    left: 40px;
+}
+.search>.account{
+    border-top-right-radius: 12px;
+    background-color: green;
+    width: 60px;
+    height: 15%;
+    position: fixed;
+    top: 250px;
+    left: 40px;
+}
+.account img{
+    padding-top:15px  ;
+    width: 60%;
+    margin: 0px 10px ;
+}
+
+
+.search img{
+    border-top-right-radius: 10px;
+
+}
+
+.searchicon{
+    position: fixed;
+    top: 360px;
+    left: 50px;
+    
+}
+.searchicon img{
+    width: 40px ;
+    
+}
+
+
+/* Slider */
+
+.feature {
+    background-color: black;
+    color: white;
+    width: 17%;
+    vertical-align: bottom;
+    height: 30px;
+    margin: 0% 10%;
+    margin-top: 4%;
+    font-weight: 800;
+    font-size: medium;
+}
+.feature img{
+    margin: 0px 10px;
+    vertical-align: bottom;
+}
+
+.slider-con{
+    background-color: black;
+    margin: 0% auto;
+    height: 344x;
+    width: 94%;
+
+}
+.slider{
+    display: inline-block;
+    background-color: rgba(87, 87, 133, 0.719);
+    margin: 0px;
+    width: 230px;
+    opacity: 0.6;
+}
+.slider:hover{
+    opacity: 1;
+    transition: 0.5s;
+    zoom: 101%;
+
+}
+
+
+.slider img{
+    background-color: grey;
+}
+.slider h1{
+    color: white;
+    padding: 7px 20px;  
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+
+
+/* Explore section */
+
+.explore{
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 20px;
+    width: 66%;
+    padding: 10px 5px;
+}
+.cardex{
+    display: inline-block;
+width: 32%;
+border-radius: 20px;
+margin-left: 7px;
+}
+.cardex img{
+    border-radius: 5px ;
+}
+
+
+.cardex>h1,p{
+    padding:0px 12px ;
+    font-weight: 800;
+}
+
+.cardex>p{
+    text-align: justify;
+    width: 90%;
+    font-weight: 800;
+}
+.cardex1>h1
+{
+    text-transform: capitalize; color: white;
+}
+.cardex1{
+    vertical-align: -120%;
+    background-color: rgb(255, 208, 0);
+}
+.cardex2>h1
+{
+    text-transform: capitalize; color: white;
+}
+
+.cardex2{
+    vertical-align: 120%;
+ background-color: blue;
+}
+.cardex3>h1
+{
+    text-transform: capitalize; color: white;
+}
+.cardex3{
+    background-color: violet;
+    vertical-align: -120%;
+}
+.cardex4>h1
+{
+    text-transform: capitalize; color: white;
+}
+.cardex4{
+    vertical-align: -120%;
+background-color: cadetblue;
+}
+.cardex5>h1
+{
+    text-transform: capitalize; color: white;
+}
+.cardex5{
+    vertical-align: top;
+background-color:#ee6b2f;
+}
+.cardex6>h1
+{
+    text-transform: capitalize; color: white;
+}
+.cardex6{
+    vertical-align: -120%;
+    background-color: springgreen;
+}
+
+.ex-h2{
+    font-size: 20px ;
+    margin: 0px  auto;
+    width: 30%;
+
+}
+
+
+/* Footer start  */
+
+Footer{
+ background-color: black;
+}
+
+
+/* form section */
+
+.formmain{
+
+    width: 60%;
+
+}
+.contactform{
+    width: 66%;
+    margin-left: 200px;
+    padding: 20px ;
+}
+
+
+.contactform input {
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px ;
+    margin: 10px ;
+    
+}
+.contactform select {
+
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px 0px ;
+    margin-left: 10px ;
+    
+}
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    padding: 20px ;
+    margin-left: 10px ;
+    background-color: rgb(161, 159, 159);
+    width: 30%;
+}
+
+
+
+
+.box-container{
+    margin: auto;
+    width: 69%;
+    
+}
+
+.box1{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.box1 ul li {
+    padding: 3px 0px ;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+
+.box2{
+    vertical-align: top;
+    width: 25%;
+    display: inline-block;
+    padding-left: 20px ;
+}
+.box3 ul li {
+    padding: 1px 0px ;
+}
+.box2 img{
+    display: inline-block;
+    padding: 0px 2px ;
+    width: 30px;
+
+}
+.box3{
+    
+    vertical-align: top;
+    padding: 1px ;
+    display: inline-block;
+    width: 35%;
+}
+.box3 img{
+    padding-left: 30px ;
+}
+
+.box3 ul li {
+list-style: none;
+font-size: 15px;
+    font-weight: 800;
+
+}
+.strip {
+    height: 200px ;
+}
+
+
+.box1 ul{
+
+}
+.box1 ul li{
+        list-style: none;
+} 
+.whitetext{
+    color: white;
+}
